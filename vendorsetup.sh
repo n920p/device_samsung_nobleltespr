@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo inv_zerofltexx-userdebug
+add_lunch_combo invictrix_zerofltexx-userdebug
