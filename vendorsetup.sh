@@ -14,4 +14,11 @@
 # limitations under the License.
 #
 
+add_lunch_combo aokp_zerofltexx-userdebug
+add_lunch_combo aosp_zerofltexx-userdebug
+add_lunch_combo gzosp_zerofltexx-userdebug
+add_lunch_combo lineage_zerofltexx-userdebug
+add_lunch_combo nexus_zerofltexx-userdebug
+add_lunch_combo omni_zerofltexx-userdebug
+add_lunch_combo rr_zerofltexx-userdebug
 add_lunch_combo invictrix_zerofltexx-userdebug
