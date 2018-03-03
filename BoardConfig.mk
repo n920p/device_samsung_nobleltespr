@@ -30,7 +30,7 @@ TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte,zeroltexx,zerolte,nobleltetmo,no
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerofltexx/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := invictrix_defconfig
+TARGET_KERNEL_CONFIG := invictrix_nobleltetmo_defconfig
 
 # Radio
 BOARD_MODEM_TYPE := ss333
