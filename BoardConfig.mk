@@ -24,10 +24,10 @@
 include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte,zeroflteskt,zerofltecan,zerofltetmo,zeroltexx,zerolte,zerolteskt,zeroltecan,zeroltetmo
+TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltetmo
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerofltexx/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/nobleltetmo/include
 
 # Kernel
 TARGET_KERNEL_CONFIG := invictrix_nobleltetmo_defconfig
