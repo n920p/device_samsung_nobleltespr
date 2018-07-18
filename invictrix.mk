@@ -1,5 +1,5 @@
 # Initialise device config
-$(call inherit-product, device/samsung/nobleltetmo/full_nobleltetmo.mk)
+$(call inherit-product, device/samsung/nobleltespr/full_nobleltespr.mk)
 
 # Enhanced NFC
 # $(call inherit-product, vendor/lineage/config/nfc_enhanced.mk)
@@ -9,8 +9,8 @@ $(call inherit-product, vendor/invictrix/config/gsm.mk)
 $(call inherit-product, vendor/invictrix/config/common.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="nobleltetmo" \
+    PRODUCT_NAME="nobleltespr" \
     TARGET_DEVICE="noblelte"
 
-PRODUCT_NAME := invictrix_nobleltetmo
-PRODUCT_DEVICE := nobleltetmo
+PRODUCT_NAME := invictrix_nobleltespr
+PRODUCT_DEVICE := nobleltespr

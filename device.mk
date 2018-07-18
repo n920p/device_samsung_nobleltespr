@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/nobleltetmo
+LOCAL_PATH := device/samsung/nobleltespr
 
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Inherit semi-common blobs
-$(call inherit-product, vendor/samsung/zero-non-spr/zero-non-spr-vendor.mk)
+# Inherit model-specific blobs
+$(call inherit-product, vendor/samsung/zero-spr/zero-spr-vendor.mk)
 
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)

@@ -24,13 +24,13 @@
 include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltetmo
+TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltespr
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/nobleltetmo/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/nobleltespr/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := invictrix_nobleltetmo_defconfig
+TARGET_KERNEL_CONFIG := invictrix_nobleltespr_defconfig
 
 # Radio
-BOARD_MODEM_TYPE := ss333
+BOARD_MODEM_TYPE := mdm9x35
